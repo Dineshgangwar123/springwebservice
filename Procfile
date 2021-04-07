@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT -jar target/.mvn/wrapper/maven-wrapper.jar
+web: java $JAVA_OPTS -cp target/classes:target/dependency/* com.myfirstdemo.reactfullwebservice
