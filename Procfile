@@ -1,1 +1,2 @@
-web: java -jar target/com.myfirstdemo.reactfullwebservice-1.0.0.jar
+web: java -jar ./target/reactfullwebservice-0.0.1-SNAPSHOT.jar
+
