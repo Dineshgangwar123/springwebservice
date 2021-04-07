@@ -1,1 +1,1 @@
-web: java -jar ./target/reactfullwebservice-0.0.1-SNAPSHOT.jar
+web: java -Dserver.port=$PORT -war target/reactfullwebservice-0.0.1-SNAPSHOT.war
