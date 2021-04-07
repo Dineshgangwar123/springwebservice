@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* com.myfirstdemo.reactfullwebservice
+web: java -jar target/com.myfirstdemo.reactfullwebservice-1.0.0.jar
